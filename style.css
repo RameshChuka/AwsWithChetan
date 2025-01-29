@@ -125,10 +125,10 @@ nav_link:focus {
 
 .btn-hero {
   color: white;
-  padding: 10px 25px;
-  background-color: rgb(194, 69, 69);
+  padding: 15px 25px;
+  background-color: black;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   border-radius: 8px;
 }
 
@@ -258,12 +258,17 @@ nav_link:focus {
   flex-wrap: wrap;
   justify-content: space-between;
   max-width: 1300px;
-  margin: 0px auto;
+  margin: 0px 200px;
   align-items: center;
 }
 .footer-img {
   width: 200px;
   height: 100px;
+}
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
@@ -369,5 +374,10 @@ nav_link:focus {
     margin: 0px 10px;
     align-items: center;
     text-align: center;
+  }
+  .footer-container {
+    margin: 0px 10px;
+    padding-bottom: 50px;
+    align-items: center;
   }
 }
